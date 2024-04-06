@@ -93,8 +93,7 @@ clGENE <- function(...){
   # Initializes the result list
   results <- list()
   grouped_pca_results <- list()
-  close_genes_list <- list() # 新增一个列表来保存靠近基因对
-  
+  close_genes_list <- list()
   # Perform an operation on each matrix
   for (i in seq_along(matrices)) {
     matrix <- matrices[[i]]
@@ -225,8 +224,6 @@ clGENE <- function(...){
   
   return(results)
 }
-write.csv(as.data.frame(lala),"aaa.csv",row.names =F)#Export the results to the default path
-first_row_of_first_matrix <- lala[[1]]$firstRow
-remaining_of_first_matrix <- lala[[1]]$remainingMatrix
+
 
 ################################################

@@ -7,6 +7,7 @@ Authors@R: c(
 Description: The clGENE package provides a comprehensive framework for uncovering shared molecular mechanisms in diseases by integrating sequencing and clinical data through normalization, cosine similarity, and PCA, validated by pan-cancer and immune pattern analyses.
 License: GPL-3
 Depends: R (>= 3.5.0)
+Encoding: UTF-8
 Imports:
     Matrix,
     ggplot2
