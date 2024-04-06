@@ -28,6 +28,4 @@ library(clGENE)
 
 # Example usage
 result <- clGENE(omics_data)
-Visualizations
-clGENE offers visualization methods to help you interpret the results:
-![幻灯片5](https://github.com/lizheng199729/clGENE/assets/138444869/92b37a1b-e7f5-46c0-8ba2-d243a613a2c7)
+
