@@ -1,0 +1,14 @@
+Package: clGENE
+Type: Package
+Title: Classification GENE
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Li", "Zheng", email = "1056798316@qq.com", role = c("aut", "cre")))
+Description: The clGENE package provides a comprehensive framework for uncovering shared molecular mechanisms in diseases by integrating sequencing and clinical data through normalization, cosine similarity, and PCA, validated by pan-cancer and immune pattern analyses.
+License: GPL-3
+Depends: R (>= 3.5.0)
+Imports:
+    Matrix,
+    ggplot2
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
